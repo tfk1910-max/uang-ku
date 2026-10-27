@@ -1,0 +1,19 @@
+name: uangku_offline
+description: Aplikasi pengelola keuangan pribadi offline.
+publish_to: 'none'
+version: 2.0.0+2
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  shared_preferences: ^2.3.2
+  intl: any
+  crypto: ^3.0.3
+
+flutter:
+  uses-material-design: true
